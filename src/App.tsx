@@ -15,8 +15,8 @@ const RomanticMessage: React.FC<{ isVisible: boolean }> = ({ isVisible }) => {
       <h1 className="display-4 text-primary">Happy Birthday, Touha!</h1>
       <p className="lead">
         My love, you light up my life like no one else. Every day with you is a
-        dream come true, and today we celebrate the amazing person you are. You
-        are my heart, my happiness, and my forever. I love you more than words
+        dream come true, and today we celebrate the amazing person you are.5 hard months, every day I think of you.
+        You are my heart, my happiness, and my forever. I love you more than words
         can say.
       </p>
     </motion.div>
