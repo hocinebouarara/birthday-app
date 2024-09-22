@@ -59,7 +59,7 @@ const App: React.FC = () => {
   const handleButtonClick = () => {
     setShowMessage(true);
     setShowConfetti(true);
-    setTimeout(() => setShowConfetti(false), 5000); // Show confetti for 5 seconds
+    setTimeout(() => setShowConfetti(false), 10000); // Show confetti for 5 seconds
   };
 
   return (
