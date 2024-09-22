@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #6a1b9a;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff5722;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.reveal-message-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #8e24aa;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.reveal-message-button:hover {
+  background-color: #6a1b9a;
+}
+
+.romantic-message {
+  margin-bottom: 30px;
+}
+
+.age-counter {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.confetti-container {
+  margin-top: 30px;
+}
+
+.celebrate-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.celebrate-button:hover {
+  background-color: #d81b60;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .reveal-message-button, .celebrate-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  .App {
+    padding: 10px;
+  }
+}
